@@ -9,12 +9,12 @@ pipeline {
         }
         stage("Compile"){
             steps{
-                bat "javac HellWorld.java"
+                bat "javac HelloWorld.java"
             }
         }
          stage("Run"){
             steps{
-                bat "java HellWorld"
+                bat "java HelloWorld"
             }
         }
     }
